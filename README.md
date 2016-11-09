@@ -53,3 +53,18 @@ Eso es toda la funcionalidad, cualquier cosa me escriben por el slack ya que rom
 2. Al crear un todo item, guardarlo en el servidor
 3. Agregar bootstrap para darle estilos a la lista de items
 4. Verificar de que manera se puede mejorar la implementación del mensaje de error en el componente AddTodoItem
+
+**Jquery**
+
+Para poder utulizar jquery de manera global, tuve que hacer una configuración en el web.config:
+
+plugins: [
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery"
+    })
+]
+
+busquen ese pedazo de código en ese archivo. Además tuve que hacer un require de webpack al principio para poder agregar la configuración. De resto, nada del otro mundo!
+
+
