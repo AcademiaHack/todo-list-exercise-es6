@@ -39,19 +39,16 @@ los muchachos les han venido enseñando.
 
 El ejercicio es bien sencillo. Los requerimientos son los siguientes:
 
-1 - Cargar una lista de todo items en el index.html que existe en memoria (Como una mejora, en un futuro podemos implementar
-la obtención de esos todo items desde el servidor).
-2- Cada todo item debe tener un label y un checkbox.
-3- Cuando se haga click en el checkbox del todo item, se debe marcar como 'checked' y ademas debe aparecer una linea sobre el label
-(como si estuviese tachado).
-4- Debe existir un campo de texto y un boton para agregar nuevos todo items. Al presionar el boton, se crea un todo item con el texto del input
-5- Si no hay texto en el input, se debe colocar un mensaje de error indicando que el campo es obligatorio, y obviamente no se puede agregar ese nuevo
-todo item.
+1. Cargar una lista de todo items en el index.html que existe en memoria (Como una mejora, en un futuro podemos implementar la obtención de esos todo items desde el servidor).
+2. Cada todo item debe tener un label y un checkbox.
+3. Cuando se haga click en el checkbox del todo item, se debe marcar como 'checked' y ademas debe aparecer una linea sobre el label (como si estuviese tachado).
+4. Debe existir un campo de texto y un boton para agregar nuevos todo items. Al presionar el boton, se crea un todo item con el texto del input
+5. Si no hay texto en el input, se debe colocar un mensaje de error indicando que el campo es obligatorio, y obviamente no se puede agregar ese nuevo todo item.
 
 Eso es toda la funcionalidad, cualquier cosa me escriben por el slack ya que romer me agregó.
 
 **Cosas para mejorar**
-1- Traer los todo items del servidor
-2- Al crear un todo item, guardarlo en el servidor
-3- Agregar bootstrap para darle estilos a la lista de items
-4- Verificar de que manera se puede mejorar la implementación del mensaje de error en el componente AddTodoItem
+1. Traer los todo items del servidor
+2. Al crear un todo item, guardarlo en el servidor
+3. Agregar bootstrap para darle estilos a la lista de items
+4. Verificar de que manera se puede mejorar la implementación del mensaje de error en el componente AddTodoItem
