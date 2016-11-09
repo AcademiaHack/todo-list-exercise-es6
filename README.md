@@ -48,6 +48,7 @@ El ejercicio es bien sencillo. Los requerimientos son los siguientes:
 Eso es toda la funcionalidad, cualquier cosa me escriben por el slack ya que romer me agregó.
 
 **Cosas para mejorar**
+
 1. Traer los todo items del servidor
 2. Al crear un todo item, guardarlo en el servidor
 3. Agregar bootstrap para darle estilos a la lista de items
